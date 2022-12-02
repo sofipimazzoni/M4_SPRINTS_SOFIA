@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffcbcb;
+}
+
+.all_game {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 50px;
+  background: rgb(20, 20, 20);
+  border: none;
+  border-radius: 10px;
+  color: azure;
+}
+
+.currentPlayer{
+  font-size: 26px;
+  margin-top: 25px;
+}
